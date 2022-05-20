@@ -155,7 +155,7 @@ body {
 }
 
 .secondary-btn {
-    padding: 0.95rem 2rem;
+    padding: 0.75rem 2rem;
     color: white;
     font-size: 0.77rem;
     line-height: 1rem;
@@ -227,7 +227,7 @@ body {
 
 #hero-section {
     height: clamp(400px, 20rem + 20vw, 95vh);
-    background: linear-gradient(90deg, rgba(0,0,0,0.95), rgba(0,0,0,0.85)), url('../img/photo20.jpeg');
+    background: linear-gradient(90deg, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('../img/photo50.jpg');
     background-size: cover;
     background-position: right bottom;
 }
