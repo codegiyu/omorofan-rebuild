@@ -16,8 +16,157 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
 </head>
-<body>
-    <a id="back-to-top"><i class="bi bi-arrow-up-short" aria-hidden="true"></i></a>
+<body style="--bs-body-font-family: 'Montserrat', sans-serif; --bs-body-line-height: 1.6;">
+    <a id="my-back-to-top" class="d-inline-block bg-dark text-center rounded position-fixed opacity-0 invisible"><i class="bi bi-arrow-up-short" aria-hidden="true"></i></a>
+    <nav class="navbar navbar-expand-md navbar-light bg-white py-lg-3">
+        <div class="container px-lg-0 px-md-0">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/Logo1.PNG" alt="" height="40px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="iconify fs-2" data-icon="gg:menu-right" style="color: #f90;"></span>
+            </button>
+            <div class="collapse navbar-collapse pt-lg-0 pb-lg-0 pt-md-0 pb-md-0 pt-3 pb-5" id="navbarSupportedContent">
+                <ul class="navbar-nav me-lg-2 me-md-2 ms-auto me-0 mb-lg-0 mb-md-0 mb-3 ff-roboto">
+                    <li class="nav-item mx-3 py-lg-0 py-md-0 py-2">
+                        <a class="nav-link fs-80 fw-500 letter-spacing-3 text-uppercase py-2 d-inline-block" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-3 py-lg-0 py-md-0 py-2">
+                        <a class="nav-link fs-80 fw-500 letter-spacing-3 text-uppercase py-2 d-inline-block" href="about.html">About</a>
+                    </li>
+                </ul>
+                <a href="contact.html" class="btn btn-warning bg-orange justify-self-center text-white letter-spacing-5 text-uppercase py-2 px-4 ms-lg-2 ms-md-2 my-lg-0 my-md-0 my-3"><small>Contact Us</small></a>
+                <!-- <a href="contact.html" class="primary-btn rounded text-uppercase bg-orange text-white ms-lg-2 ms-md-2 my-lg-0 my-md-0 my-3 text-decoration-none letter-spacing-5">Contact Us</a> -->
+            </div>
+        </div>
+      </nav>
+
+      <section id="contact-hero" class="contact-hero container py-5 d-flex align-items-center justify-content-center" style="background-image: url('img/photo41.jpg'); background-size: cover;">
+        <div class="container py-5 my-5">
+            <h1 class="display-3 fw-bold text-white text-center my-4">Contact Us</h1>
+        </div>
+      </section>
+
+      <section id="contact-section" class="contact-section bg-white py-5">
+        <div class="container p-0">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 col-12">
+                    <form action="post" class="p-4 border rounded">
+                        <h1 class="fw-bold text-center">Contact Us</h1>
+                        <p class="fst-italic text-center">We'll respond as soon as possible.</p>
+                        <input type="text" class="w-100 my-2 border border-secondary px-2 py-2 rounded" name="name" placeholder="Name" required>
+                        <div class="d-flex">
+                            <input type="number" class="me-2 my-2 border border-secondary px-2 py-2 rounded" name="phone" placeholder="Phone Number" required>
+                            <input type="email" name="email" id="" class="w-50 ms-auto my-2 border border-secondary px-2 py-2 rounded" placeholder="Email" required>
+                        </div>
+                        <input type="text" class="w-100 my-2 border border-secondary px-2 py-2 rounded" name="subject" placeholder="Subject" required>
+                        <textarea class="w-100 my-2 border border-secondary px-2 py-2 rounded" name="message" id="" cols="30" rows="10" placeholder="Your message here..." required></textarea>
+                        <input type="submit" class="btn btn-warning border border-none bg-orange px-2 px-4 my-2 border border-secondary px-2 py-2 rounded fs-90 text-white" name="send" value="Send Message">
+                    </form>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 ms-lg-">
+                    <div class="right-block">
+                        <div class="info-box">
+                            <div class="info-img">
+                                <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="info-content">
+                                <h1>HEAD OFFICE</h1>
+                                <p>10b Woji Road, Woji, Port-Harcourt, Rivers State.</p>
+                            </div>
+                        </div>
+                        <div class="info-box">
+                            <div class="info-img">
+                                <span><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="info-content">
+                                <h1>OFFICE HOURS</h1>
+                                <p>Monday - Friday</p>
+                                <p>8:30am - 4:00pm</p>
+                            </div>
+                        </div>
+                        <div class="info-box">
+                            <div class="info-img">
+                                <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="info-content">
+                                <h1>PHONE</h1>
+                                <a href="https://wa.me/message/JZGT2Z5EKES2N1">08171249996</a><span><i class="fa fa-whatsapp" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        <div class="info-box">
+                            <div class="info-img">
+                                <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="info-content">
+                                <h1>EMAIL</h1>
+                                <p>info@omorofan.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid map">
+        <div class="map-container container w-100 ratio ratio-16x9 p-0">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15155.35973554528!2d7.053823701658492!3d4.825412553570319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7cbc0614a5abe34f!2sOmorofan%20EMT%20Nig%20Ltd!5e0!3m2!1sen!2sng!4v1621235141675!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+      <footer class="bg-light-brown pt-5" style="font-family:'Times New Roman', Times, serif;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 mb-3 pe-5">
+                    <div class="footer-info-logo-wrap d-flex">
+                        <div class="info-logo">
+                            <img src="img/Logo-vector.png" alt="" width="50px">
+                        </div>
+                        <div class="info-name d-flex flex-column justify-content-center ms-1">
+                            <h6 class="text-brown m-0" style="font-size: 30px; font-family:'Times New Roman', Times, serif; line-height: 30px; font-weight:700;">OMOROFAN</h6>
+                            <p class="text-brown text-start m-0" style="font-size:12px; line-height:12px; font-family:'Times New Roman', Times, serif; font-weight:500; padding-left:3px;">Beyond Perfection</p>
+                        </div>
+                    </div>
+                    <p class="text-justify text-secondary mt-3 fs-90" style="text-align: justify;">OMOROFAN EMT NIG LTD is and indigenous engineering and maintenance servicing company providing operational maintenance and engineering services to the oil and gas, healthcare and other industrial sectors.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-3 ps-lg-3 ps-md-3">
+                    <h6 class="text-brown h4 fw-bold" style="font-family:'Times New Roman', Times, serif">Head Office</h6>
+                    <div class="d-flex">
+                        <span class="iconify d-inline-block fs-3 me-2" data-icon="entypo:location-pin" style="color: gray;"></span>
+                        <p class="text-secondary fs-90">10b Woji Road, Woji, Port-Harcourt, Rivers State, Nigeria.</p>
+                    </div>
+                    <div class="d-flex">
+                        <span class="iconify d-inline-block fs-4 me-2" data-icon="entypo:old-phone" style="color: gray;"></span>
+                        <p class="text-secondary fs-90">07031215639</p>
+                    </div>
+                    <div class="d-flex">
+                        <span class="iconify d-inline-block fs-4 me-2" data-icon="fa-brands:whatsapp" style="color: gray;"></span>
+                        <p class="text-secondary fs-90">08171249996</p>
+                    </div>
+                    <div class="d-flex">
+                        <span class="iconify d-inline-block fs-4 me-2" data-icon="clarity:email-solid" style="color: gray;"></span>
+                        <p class="text-secondary fs-90">info@omorofan.com.ng</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-12 mb-3">
+                    <h6 class="text-brown h4 fw-bold" style="font-family:'Times New Roman', Times, serif">Office Hours</h6>
+                    <p class="text-secondary fs-90">Mon-Fri</p>
+                    <p class="text-secondary fs-90">8:30am - 4:00pm</p>
+                </div>
+                <div class="col-lg-2 col-md-6 col-12 mb-3">
+                    <h6 class="text-brown h4 fw-bold" style="font-family:'Times New Roman', Times, serif">Useful Links</h6>
+                    <a href="about.html" class="text-decoration-none">
+                        <p class="text-secondary fs-90">About Us</p>
+                    </a><a href="contact.html" class="text-decoration-none">
+                        <p class="text-secondary fs-90">Contact Us</p>
+                    </a>
+                </div>
+            </div>
+            <hr>
+            <p class="text-secondary text-center pb-3 fs-90"><small>Copyright&copy;2021 Omorofan EMT Nig Ltd. All rights reserved. Designed by <a href="https://github.com/codegiyu" class="text-secondary">CodeGiyu</a></small></p>
+        </div>
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

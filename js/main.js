@@ -1,4 +1,4 @@
-var btn = $('#back-to-top');
+var btn = $('#my-back-to-top');
 
 $(window).scroll(function() {
     if ($(window).scrollTop() > 300) {

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.2/dist/css/splide.min.css" integrity="sha256-6YrKt7vMU9e4bwtlblASqhvvEt4/0JEQJ/zyWOFKnaM=" crossorigin="anonymous">
 
     <title>Omorofan EMT Nig Ltd - Top-Class Engineering Maintenance Company</title>
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -17,7 +18,7 @@
     <link rel="manifest" href="site.webmanifest">
 </head>
 <body style="--bs-body-font-family: 'Montserrat', sans-serif; --bs-body-line-height: 1.6;">
-    <a id="back-to-top" class="d-inline-block bg-dark text-center rounded position-fixed opacity-0 invisible"><i class="bi bi-arrow-up-short" aria-hidden="true"></i></a>
+    <a id="my-back-to-top" class="d-inline-block bg-dark text-center rounded position-fixed opacity-0 invisible"><i class="bi bi-arrow-up-short" aria-hidden="true"></i></a>
     <nav class="navbar navbar-expand-md navbar-light bg-white py-lg-3">
         <div class="container px-lg-0 px-md-0">
             <a class="navbar-brand" href="index.html">
@@ -35,7 +36,8 @@
                         <a class="nav-link fs-80 fw-500 letter-spacing-3 text-uppercase py-2 d-inline-block" href="about.html">About</a>
                     </li>
                 </ul>
-                <a href="contact.html" class="primary-btn rounded text-uppercase bg-orange text-white ms-lg-2 ms-md-2 my-lg-0 my-md-0 my-3 text-decoration-none letter-spacing-5">Contact Us</a>
+                <a href="contact.html" class="btn btn-warning bg-orange justify-self-center text-white letter-spacing-5 text-uppercase py-2 px-4 ms-lg-2 ms-md-2 my-lg-0 my-md-0 my-3"><small>Contact Us</small></a>
+                <!-- <a href="contact.html" class="primary-btn rounded text-uppercase bg-orange text-white ms-lg-2 ms-md-2 my-lg-0 my-md-0 my-3 text-decoration-none letter-spacing-5">Contact Us</a> -->
             </div>
         </div>
       </nav>
@@ -45,7 +47,7 @@
             <div class="jumbotron py-5 text-white d-flex flex-column align-items-center" id="intro-header">
                 <h4 id="banner-heading" class="display-2 fw-bold text-center">Omorofan EMT Nig Ltd</h4>
                 <p id="banner-paragraph" class="text-center opacity-50 ff-roboto px-5 mt-3 my-5"><small>We provide engineering, maintenance, technical support and consultancy services in <br>the Oil and Gas, Healthcare and other industrial sectors.</small></p>
-                <a href="about.html" id="banner-btn" class="secondary-btn text-white text-decoration-none rounded letter-spacing-5 mx-auto">ABOUT US</a>
+                <a href="about.html" id="banner-btn" class="btn btn-outline-warning bg-orange text-white text-decoration-none rounded letter-spacing-5 fs-90 mx-auto py-2 px-5">ABOUT US</a>
             </div>
         </div>
       </section>
@@ -63,7 +65,7 @@
                         <p class="section-label text-start">About</p>
                         <h6 class="section-heading opacity-9 text-dark display-6 letter-spacing-1">Who we are</h6>
                         <p class="text-dark opacity-8 letter-spacing-1 mt-2 mb-4">Omorofan EMT Nig Ltd. is an indigenous engineering and maintenance servicing company, providing operational maintenance and engineering services to the oil and gas, healthcare and other industrial sectors.</p>
-                        <a href="" class="primary-btn rounded text-uppercase bg-orange text-white text-decoration-none letter-spacing-5 me-auto mb-lg-0 mb-md-0 mb-5">About us</a>
+                        <a href="contact.html" class="btn btn-warning bg-orange justify-self-center text-white letter-spacing-5 text-uppercase py-2 px-4 me-auto"><small>About Us</small></a>
                     </div>
                 </div>
                 <div class="about-img col-lg-7 col-md-12 ms-auto">
@@ -200,7 +202,7 @@
     </section>
 
     <section id="feedback-section" class="feedback-section bg-light py-5">
-        <div class="container py-5">
+        <div class="container pt-5">
             <p class="section-label text-center">What Our Clients Say</p>
             <div id="feedback-slide-wrap" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -209,37 +211,37 @@
                   <button type="button" data-bs-target="#feedback-slide-wrap" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner p-0 px-lg-5 px-md-5 rounded">
-                  <div class="carousel-item pt-5 pb-3 mb-4 active">
+                  <div class="carousel-item pt-5 pb-3 mb-5 active">
                     <div class="carousel-item-wrap px-0 px-lg-5 px-md-5 mx-lg-5">
-                        <div class="feedback-text w-75 mx-auto py-4 px-3 bg-warning rounded">
+                        <div class="feedback-text w-100 mx-auto pt-5 pb-3 px-3 bg-orange position-relative rounded">
                             <p class="letter-spacing-3 ff-roboto text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quia repellendus sint reprehenderit aperiam deleniti. Ad tempore, similique cupiditate non necessitatibus fugiat iusto sapiente possimus!</p>
                         </div>
                         <div class="feedback-img ratio ratio-1x1 rounded-circle mx-auto mt-5">
-                            <img src="img/feedback-1.jpg" alt="" class="img-fluid rounded-circle">
+                            <img src="img/feedback-1.jpg" alt="" class="img-fluid rounded-circle" width="100px">
                         </div>
                         <p class="fw-bold text-center mt-2 mb-1"><small>John Doe</small></p>
                         <p class="text-center ff-roboto"><small>Schlumberger Plc</small></p>
                     </div>
                   </div>
-                  <div class="carousel-item pt-5 pb-3 mb-4">
+                  <div class="carousel-item pt-5 pb-3 mb-5">
                     <div class="carousel-item-wrap px-0 px-lg-5 px-md-5 mx-lg-5">
-                        <div class="feedback-text w-75 mx-auto py-4 px-3 bg-warning rounded">
+                        <div class="feedback-text w-100 mx-auto pt-5 pb-3 px-3 bg-orange position-relative rounded">
                             <p class="letter-spacing-3 ff-roboto text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quia repellendus sint reprehenderit aperiam deleniti. Ad tempore, similique cupiditate non necessitatibus fugiat iusto sapiente possimus!</p>
                         </div>
                         <div class="feedback-img ratio ratio-1x1 rounded-circle mx-auto mt-5">
-                            <img src="img/feedback-2.jpg" alt="" class="img-fluid rounded-circle">
+                            <img src="img/feedback-2.jpg" alt="" class="img-fluid rounded-circle" width="100px">
                         </div>
                         <p class="fw-bold text-center mt-2 mb-1"><small>Angela Wu</small></p>
                         <p class="text-center ff-roboto"><small>Udemy</small></p>
                     </div>
                   </div>
-                  <div class="carousel-item pt-5 pb-3 mb-4">
+                  <div class="carousel-item pt-5 pb-3 mb-5">
                     <div class="carousel-item-wrap px-0 px-lg-5 px-md-5 mx-lg-5">
-                        <div class="feedback-text w-75 mx-auto py-4 px-3 bg-warning rounded">
+                        <div class="feedback-text w-100 mx-auto pt-5 pb-3 px-3 bg-orange position-relative rounded">
                             <p class="letter-spacing-3 ff-roboto text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quia repellendus sint reprehenderit aperiam deleniti. Ad tempore, similique cupiditate non necessitatibus fugiat iusto sapiente possimus!</p>
                         </div>
                         <div class="feedback-img ratio ratio-1x1 rounded-circle mx-auto mt-5">
-                            <img src="img/feedback-3.jpg" alt="" class="img-fluid rounded-circle">
+                            <img src="img/feedback-3.jpg" alt="" class="img-fluid rounded-circle" width="100px">
                         </div>
                         <p class="fw-bold text-center mt-2 mb-1"><small>Chris Hunter</small></p>
                         <p class="text-center ff-roboto"><small>Baker Hughes Inc</small></p>
@@ -258,25 +260,93 @@
         </div>
     </section>
 
-    <section id="clients-section" class="clients-section bg-white py-5">
+    <section id="clients-section" class="clients-section bg-white pt-5 pb-3">
         <div class="container-fluid">
-
+            <p class="section-label text-center mb-5">Our Clients</p>
+            <div class="splide" aria-label="Omorofan Clients Slide">
+                <div class="splide__track">
+                      <ul class="splide__list">
+                          <li class="splide__slide"><img src="img/african_circle.PNG" alt="" class="clients-img" width="150px"></li>
+                          <li class="splide__slide"><img src="img/cisan.jpg" alt="" class="clients-img" width="150px"></li>
+                          <li class="splide__slide"><img src="img/daqc.png" alt="" class="clients-img" width="150px"></li>
+                          <li class="splide__slide"><img src="img/energy_quest.png" alt="" class="clients-img" width="150px"></li>
+                          <li class="splide__slide"><img src="img/flosmart.PNG" alt="" class="clients-img" width="150px"></li>
+                          <li class="splide__slide"><img src="img/geoplex.png" alt="" class="clients-img" width="150px"></li>
+                          <li class="splide__slide"><img src="img/moni_pulo.PNG" alt="" class="clients-img" width="150px"></li>
+                          <li class="splide__slide"><img src="img/psl.jpg" alt="" class="clients-img" width="150px"></li>
+                          <li class="splide__slide"><img src="img/total.png" alt="" class="clients-img" width="150px"></li>
+                          <li class="splide__slide"><img src="img/vks.PNG" alt="" class="clients-img" width="150px"></li>
+                      </ul>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="cta" class="cta py-5">
         <div class="container py-5">
-            <div class="cta-wrap d-flex flex-column py-5">
-                <h6 class="h1 text-white letter-spacing-3 text-center">100+ years of combined cognate experience!</h6>
-                <p class="text-white text-center mt-3 mb-5">We have the expertise, network and partnerships to help you keep your engineering operations running in full gear.</p>
-                <a href="contact.html" class="btn btn-warning mx-auto justify-self-center text-white letter-spacing-5 text-uppercase py-2 px-4"><small>Contact Us</small></a>
+            <div class="cta-wrap d-flex flex-column py-3">
+                <h6 class="display-5 fw-bold text-white letter-spacing-3 text-center">100+ years of combined cognate experience!</h6>
+                <p class="fs-lg-5 text-white text-center mt-3 mb-5">We have the expertise, network and partnerships to help you keep your engineering operations running in full gear.</p>
+                <a href="contact.html" class="btn btn-warning bg-orange mx-auto justify-self-center text-white letter-spacing-5 text-uppercase py-2 px-4"><small>Contact Us</small></a>
             </div>
         </div>
     </section>
 
+    <footer class="bg-light-brown pt-5" style="font-family:'Times New Roman', Times, serif;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 mb-3 pe-5">
+                    <div class="footer-info-logo-wrap d-flex">
+                        <div class="info-logo">
+                            <img src="img/Logo-vector.png" alt="" width="50px">
+                        </div>
+                        <div class="info-name d-flex flex-column justify-content-center ms-1">
+                            <h6 class="text-brown m-0" style="font-size: 30px; font-family:'Times New Roman', Times, serif; line-height: 30px; font-weight:700;">OMOROFAN</h6>
+                            <p class="text-brown text-start m-0" style="font-size:12px; line-height:12px; font-family:'Times New Roman', Times, serif; font-weight:500; padding-left:3px;">Beyond Perfection</p>
+                        </div>
+                    </div>
+                    <p class="text-justify text-secondary mt-3 fs-90" style="text-align: justify;">OMOROFAN EMT NIG LTD is and indigenous engineering and maintenance servicing company providing operational maintenance and engineering services to the oil and gas, healthcare and other industrial sectors.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-3 ps-lg-3 ps-md-3">
+                    <h6 class="text-brown h4 fw-bold" style="font-family:'Times New Roman', Times, serif">Head Office</h6>
+                    <div class="d-flex">
+                        <span class="iconify d-inline-block fs-3 me-2" data-icon="entypo:location-pin" style="color: gray;"></span>
+                        <p class="text-secondary fs-90">10b Woji Road, Woji, Port-Harcourt, Rivers State, Nigeria.</p>
+                    </div>
+                    <div class="d-flex">
+                        <span class="iconify d-inline-block fs-4 me-2" data-icon="entypo:old-phone" style="color: gray;"></span>
+                        <p class="text-secondary fs-90">07031215639</p>
+                    </div>
+                    <div class="d-flex">
+                        <span class="iconify d-inline-block fs-4 me-2" data-icon="fa-brands:whatsapp" style="color: gray;"></span>
+                        <p class="text-secondary fs-90">08171249996</p>
+                    </div>
+                    <div class="d-flex">
+                        <span class="iconify d-inline-block fs-4 me-2" data-icon="clarity:email-solid" style="color: gray;"></span>
+                        <p class="text-secondary fs-90">info@omorofan.com.ng</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-12 mb-3">
+                    <h6 class="text-brown h4 fw-bold" style="font-family:'Times New Roman', Times, serif">Office Hours</h6>
+                    <p class="text-secondary fs-90">Mon-Fri</p>
+                    <p class="text-secondary fs-90">8:30am - 4:00pm</p>
+                </div>
+                <div class="col-lg-2 col-md-6 col-12 mb-3">
+                    <h6 class="text-brown h4 fw-bold" style="font-family:'Times New Roman', Times, serif">Useful Links</h6>
+                    <a href="about.html" class="text-decoration-none">
+                        <p class="text-secondary fs-90">About Us</p>
+                    </a><a href="contact.html" class="text-decoration-none">
+                        <p class="text-secondary fs-90">Contact Us</p>
+                    </a>
+                </div>
+            </div>
+            <hr>
+            <p class="text-secondary text-center pb-3 fs-90"><small>Copyright&copy;2021 Omorofan EMT Nig Ltd. All rights reserved. Designed by <a href="https://github.com/codegiyu" class="text-secondary">CodeGiyu</a></small></p>
+        </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="js/main.js"></script>
     <script src="https://kit.fontawesome.com/3f7881fabf.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.0.0/iconify.min.js" integrity="sha512-lYMiwcB608+RcqJmP93CMe7b4i9G9QK1RbixsNu4PzMRJMsqr/bUrkXUuFzCNsRUo3IXNUr5hz98lINURv5CNA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
@@ -285,6 +355,19 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.2/dist/js/splide.min.js" integrity="sha256-esNVkEwsSpRc+USDUy7gWsyTZprX+CtOFMUgVq9JYnE=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.4.2/dist/js/splide-extension-auto-scroll.min.js" integrity="sha256-6nMNBYfyROdV6ao6x/RnA8pcQvmL2OH3B+oDZ+EEcmk=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 
+    <script>  
+    new Splide( '.splide', {
+        type: 'loop',
+        drag: 'free',
+        focus: 'center',
+        arrows: false,
+        pagination: false,
+        autoWidth: true,
+    } ).mount( window.splide.Extensions );
+    </script>
 </body>
 </html>
