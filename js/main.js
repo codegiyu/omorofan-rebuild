@@ -1,14 +1,27 @@
-var btn = $('#my-back-to-top');
+var btt = $('#my-back-to-top');
 
 $(window).scroll(function() {
     if ($(window).scrollTop() > 300) {
-        btn.addClass('show');
+        btt.addClass('show');
     } else {
-        btn.removeClass('show');
+        btt.removeClass('show');
     }
 });
 
-btn.on('click', function(e) {
+btt.on('click', function(e) {
     e.preventDefault();
     $('html, body').animate({scrollTop:0}, '300');
 });
+
+
+AOS.init();
+
+
+new Splide( '.splide', {
+    type: 'loop',
+    drag: 'free',
+    focus: 'center',
+    arrows: false,
+    pagination: false,
+    autoWidth: true,
+} ).mount( window.splide.Extensions );

@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 
-/* --------------------------- */
 /* ----Custom Properties------ */
-/* --------------------------- */
 
 :root {
     --clr-orange: 255, 153, 0;    /* #ff9900 */
@@ -17,9 +15,7 @@
     --fs-80: 0.8rem;
 }
 
-/* --------------------------- */
 /* ------Utility Classes------ */
-/* --------------------------- */
 
 .bg-orange { background-color: rgb( var(--clr-orange) );}
 .bg-purple { background-color: rgb( var(--clr-purple) );}
@@ -36,42 +32,27 @@
 .letter-spacing-3 { letter-spacing: 1px;}
 .letter-spacing-5 { letter-spacing: 2.5px;}
 
-/* --------------------------- */
 /* ----------Components------- */
-/* --------------------------- */
 
-#back-to-top {
-    width: 40px;
-    height: 40px;
-    bottom: 30px;
-    right: 30px;
+#my-back-to-top {
+    background-color: #333;
+    opacity: 0;
+    visibility: hidden;
     -webkit-transition: background-color .3s, opacity .5s, visibility .5s;
     -o-transition: background-color .3s, opacity .5s, visibility .5s;
     transition: background-color .3s, opacity .5s, visibility .5s;
 }
-#back-to-top i {
-    line-height: 40px;
-} 
-#back-to-top:hover, #back-to-top:active {
+#my-back-to-top:hover, #my-back-to-top:active {
     cursor: pointer;
     background-color: rgb( var(--clr-orange) );
 } 
-#back-to-top.show {
+#my-back-to-top.show {
     opacity: 1;
     visibility: visible;
-}
-.section-label {
-    font-size: var(--fs-90);
-    color: rgb( var(--clr-purple) );
-    opacity: 0.9;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 /* ----Hero Background------ */
 #hero-section {
-    /* height: clamp(400px, 20rem + 20vw, 95vh); */
     background: linear-gradient(90deg, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('../img/photo50.jpg');
     background-size: cover;
     background-position: right bottom;
